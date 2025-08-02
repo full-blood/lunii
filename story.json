@@ -1,0 +1,64 @@
+{
+	"format":"v1",
+	"title":"CodePack",
+	"version":1,
+	"description":"Test pack for coding",
+	"nightModeAvailable":true,
+	
+	"stageNodes":[{
+		"uuid":"4fdcc164-9326-4c5d-b784-f3877c932368",
+		"type":"cover",
+		"name":"Cover node",
+		"position":{"x":500,"y":500},
+		"image":null,
+		"audio":null,
+		"okTransition":null,
+		"homeTransition":null,
+		"controlSettings":{"wheel":true,"ok":true,"home":false,"pause":false,"autoplay":false},
+		"squareOne":true},
+{
+		"uuid":"ee57d6da-a855-4e85-91bd-222222222222",
+		"type":"menu.questionstage",
+		"groupId":"ee57d6da-a855-4e85-91bd-aa7350c8521d",
+		"name":"Menu node",
+		"image":null,
+		"audio":null,
+		"okTransition":{"actionNode":"ee57d6da-a855-4e85-91bd-333333333333","optionIndex":0},
+		"homeTransition":null,
+		"controlSettings":{"wheel":false,"ok":false,"home":false,"pause":false,"autoplay":true}},
+{
+		"uuid":"ee57d6da-a855-4e85-91bd-444444440000",
+		"type":"menu.optionstage",
+		"groupId":"ee57d6da-a855-4e85-91bd-aa7350c8521d",
+		"name":"Option #1",
+		"image":null,
+		"audio":null,
+		"okTransition":null,
+		"homeTransition":null,
+		"controlSettings":{"wheel":true,"ok":true,"home":true,"pause":false,"autoplay":false}},
+{
+		"uuid":"ee57d6da-a855-4e85-91bd-444444440001",
+		"type":"menu.optionstage",
+		"groupId":"ee57d6da-a855-4e85-91bd-aa7350c8521d",
+		"name":"Option #2",
+		"image":null,
+		"audio":null,
+		"okTransition":null,
+		"homeTransition":null,
+		"controlSettings":{"wheel":true,"ok":true,"home":true,"pause":false,"autoplay":false}}
+	],
+	
+	"actionNodes":[{
+		"id":"ee57d6da-a855-4e85-91bd-111111111111",
+		"type":"menu.questionaction",
+		"groupId":"ee57d6da-a855-4e85-91bd-aa7350c8521d",
+		"name":"Menu node.questionaction",
+		"position":{"x":750,"y":500},
+		"options":["ee57d6da-a855-4e85-91bd-222222222222"]},
+		{"id":"ee57d6da-a855-4e85-91bd-333333333333",
+		"type":"menu.optionsaction",
+		"groupId":"ee57d6da-a855-4e85-91bd-aa7350c8521d",
+		"name":"Menu node.optionsaction",
+		"options":["ee57d6da-a855-4e85-91bd-444444440000","ee57d6da-a855-4e85-91bd-444444440001"]}
+	]
+}
