@@ -45,7 +45,8 @@
 		"audio":null,
 		"okTransition":null,
 		"homeTransition":null,
-		"controlSettings":{"wheel":true,"ok":true,"home":true,"pause":false,"autoplay":false}}
+		"controlSettings":{"wheel":true,"ok":true,"home":true,"pause":false,"autoplay":false}},
+		
 	],
 	
 	"actionNodes":[{
