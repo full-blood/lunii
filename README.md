@@ -5,3 +5,4 @@ Scripts python pour créer des images et audios selon une liste "vocabulaire_ang
 
 A améliorer :
 - check longueur du texte pour l'image (crop?)
+- title.mp3 selon nom du dossier
