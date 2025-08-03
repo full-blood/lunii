@@ -1,0 +1,744 @@
+{
+  "format": "v1",
+  "title": "Vocabulaire anglais",
+  "version": 1,
+  "description": "Pack de vocabulaire - 4 catégories",
+  "nightModeAvailable": true,
+  "stageNodes": [
+    {
+      "uuid": "0eea6670-f007-42d2-ae22-54e6e04d0515",
+      "type": "cover",
+      "name": "Vocabulaire",
+      "position": {
+        "x": 100,
+        "y": 500
+      },
+      "image": "97c915548e678e208a09d0e14e71f1436ba8e34b.png",
+      "audio": "fbc197c395e365b2fc1d8140d10e69ee19cfbd92.mp3",
+      "okTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": false,
+        "pause": false,
+        "autoplay": true
+      },
+      "squareOne": true
+    },
+    {
+      "uuid": "cb10798f-a70b-418b-be94-222222222222",
+      "type": "menu.questionstage",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Menu node",
+      "image": null,
+      "audio": null,
+      "okTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-333333333333",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": false,
+        "ok": false,
+        "home": false,
+        "pause": false,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "cb10798f-a70b-418b-be94-4444444401",
+      "type": "menu.optionstage",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Animaux",
+      "image": "a72c63f458c39ff659148fcebe487443746b4c42.png",
+      "audio": "34cd5f82b9b48102f30b651c64470cfd2fbf0c40.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": false,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "52469d35-eadc-421b-b1a6-f609beba1389",
+      "type": "stage",
+      "name": "Cat",
+      "position": {
+        "x": 1576,
+        "y": 236
+      },
+      "image": "a298080e26aee0368ed777ad1e2c542887eeb2b4.png",
+      "audio": "2894f41b255c318368bd19e2f01cfeb3ba494bac.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": 1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "54e58690-99e9-4225-b1e8-fb7e0e211418",
+      "type": "stage",
+      "name": "Dog",
+      "position": {
+        "x": 1826,
+        "y": 236
+      },
+      "image": "dd6def9e605dd64168e0578753a9111484e15093.png",
+      "audio": "a2009200939550bea73b7fe8f5b98ab70021eca4.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": 2
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "2e5b0818-1b04-4a3c-9a72-dd7731e6af36",
+      "type": "stage",
+      "name": "Bird",
+      "position": {
+        "x": 2076,
+        "y": 236
+      },
+      "image": "d91df156a308260a3529f25332aaa9644b5e4460.png",
+      "audio": "2ea9ad83d489da7aecfa0192517c2968c9d196ad.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": 3
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "4471e010-8037-4144-922d-dddc9c2d216d",
+      "type": "stage",
+      "name": "Fish",
+      "position": {
+        "x": 2326,
+        "y": 236
+      },
+      "image": "c332e766c6e92d3cc5a1662a95df5c222eb233cf.png",
+      "audio": "293893f014870e22d3c0504a4ecbd2f01d84401c.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": 4
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "6c01887f-52a3-4bed-8793-e15b3d119213",
+      "type": "stage",
+      "name": "Cow",
+      "position": {
+        "x": 2576,
+        "y": 236
+      },
+      "image": "201597d9a24c9757aa47b1afb430341548997cdf.png",
+      "audio": "c94edf0ff05d71b35f86ed80abcd2b9ede63ef58.mp3",
+      "okTransition": {
+        "actionNode": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+        "optionIndex": -1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "cb10798f-a70b-418b-be94-4444444402",
+      "type": "menu.optionstage",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Nourriture et Boissons",
+      "image": "d7c4ac40c4e5dc2d51238e0dbc61d202a457b0c6.png",
+      "audio": "671e3040c57d88d0acf2b74252475a8464a1f355.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": false,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "d896ca39-0508-42e1-b218-b6d63dcd81ee",
+      "type": "stage",
+      "name": "Apple",
+      "position": {
+        "x": 1576,
+        "y": 536
+      },
+      "image": "8084b361c2d3571f9b73271fd28f571c6a6636c3.png",
+      "audio": "c14dcf150c37ebb2edc600a37b92f4a3af8aff8d.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": 1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "ace930a6-b6ab-48d4-a048-2df60e50175f",
+      "type": "stage",
+      "name": "Banana",
+      "position": {
+        "x": 1826,
+        "y": 536
+      },
+      "image": "778efe000787d9af92b1ac4c9fd5c4508b1c3679.png",
+      "audio": "e71fb5a8f00e760b23d337968571616b84ac8553.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": 2
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "1d1342bb-cc43-4d0a-ac1b-c4b49a8b0510",
+      "type": "stage",
+      "name": "Milk",
+      "position": {
+        "x": 2076,
+        "y": 536
+      },
+      "image": "953368c698672324f516dec1fbef7ed215cb7cd4.png",
+      "audio": "894ae9147af38550bb7fd897c263aa71c21e81ac.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": 3
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "3f42535d-09c6-42c5-92ff-b3e5c6cc358f",
+      "type": "stage",
+      "name": "Bread",
+      "position": {
+        "x": 2326,
+        "y": 536
+      },
+      "image": "b71ee9f7bc46c900d56118e26824c379f670de37.png",
+      "audio": "5bb662575e833eb7688ece64eeb183176bfa42eb.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": 4
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "0adb773f-e333-4128-85bc-ed5eeaa0fb78",
+      "type": "stage",
+      "name": "Water",
+      "position": {
+        "x": 2576,
+        "y": 536
+      },
+      "image": "e4b59a0fa260e18898f9f4c04102498a6e7e089f.png",
+      "audio": "b1ab33289b301d9caa809e2b31f6fd6883e2b9c9.mp3",
+      "okTransition": {
+        "actionNode": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+        "optionIndex": -1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "cb10798f-a70b-418b-be94-4444444403",
+      "type": "menu.optionstage",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Couleurs",
+      "image": "9cb59ee233ebed68e2c5c3cf9ef58e1f6a666957.png",
+      "audio": "77219f141f0e5775ba6688c1a2df753a6df99a0f.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": false,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "e91931a4-85c8-4a2e-a5ea-951a0dcf521e",
+      "type": "stage",
+      "name": "Red",
+      "position": {
+        "x": 1576,
+        "y": 836
+      },
+      "image": "4c799dc216d1f0e2a4052eb5a1a5f7bbd4acc930.png",
+      "audio": "74cb95b1a7b44716ff8b1239ee4b2dcb217c8cbe.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": 1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "8515c827-4576-44d4-a23b-8d2287698cf2",
+      "type": "stage",
+      "name": "Blue",
+      "position": {
+        "x": 1826,
+        "y": 836
+      },
+      "image": "1fd42ebbd8c53aa0901f6cfa8a5ec4ed6d2444f1.png",
+      "audio": "a1fac929fdfbe354dc358165caf5c6214ff949c1.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": 2
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "8c107f6c-6274-4f40-9e0f-9e108e3207dc",
+      "type": "stage",
+      "name": "Green",
+      "position": {
+        "x": 2076,
+        "y": 836
+      },
+      "image": "5d4665c76e94be3029547431acfdbfced4690678.png",
+      "audio": "11e0eebecc89c1f9a402d197e1fa378eab1b2eb7.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": 3
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "258e4f51-1288-43a1-9e1e-385bd787dd25",
+      "type": "stage",
+      "name": "Yellow",
+      "position": {
+        "x": 2326,
+        "y": 836
+      },
+      "image": "aab8421bccb9a1cd10f9b8981554f722a2f5b517.png",
+      "audio": "0de6e953b5a1df1a6194971dd578a56e5e2a6dbc.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": 4
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "ffb40f8a-96fc-4838-9e85-447050194bbf",
+      "type": "stage",
+      "name": "Pink",
+      "position": {
+        "x": 2576,
+        "y": 836
+      },
+      "image": "89d4bf9ff8e404c7dc6d770f0439cb94215f75c3.png",
+      "audio": "b81e389841f57e45011177ba1ae3c4257d813d33.mp3",
+      "okTransition": {
+        "actionNode": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+        "optionIndex": -1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "cb10798f-a70b-418b-be94-4444444404",
+      "type": "menu.optionstage",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Transports",
+      "image": "18b0cc5f5a91f1fcfc6c1dcc8bda8cbd6e0eb5e8.png",
+      "audio": "157de6cfd939749766dda4cc529a9a6ff79e72ce.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": 0
+      },
+      "homeTransition": null,
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": false,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "20387089-853b-456c-ad87-639c13b92845",
+      "type": "stage",
+      "name": "Car",
+      "position": {
+        "x": 1576,
+        "y": 1136
+      },
+      "image": "51668094205ecf49cdfcdd8260f3e34298284fd2.png",
+      "audio": "6c201738a4d860e17b01618e2687dd06b2791aec.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": 1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "adfdc820-bb24-45b0-8be9-b19735588d60",
+      "type": "stage",
+      "name": "Bus",
+      "position": {
+        "x": 1826,
+        "y": 1136
+      },
+      "image": "1b876311f43cb5e058b8d09b2556c5efedf0d2ed.png",
+      "audio": "f9c3d0d35aa23e68970bb965090f8befd925b5f8.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": 2
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "4e22b386-b457-410b-a905-5be40870fe6e",
+      "type": "stage",
+      "name": "Bike",
+      "position": {
+        "x": 2076,
+        "y": 1136
+      },
+      "image": "e5d9726e956c34dd7230fb0f5dea202228058c20.png",
+      "audio": "96b22cca613f63c23a992286dfcdd4c90e9d9ab9.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": 3
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "8fa0bd13-2239-4f14-ba15-c9156522c6a3",
+      "type": "stage",
+      "name": "Train",
+      "position": {
+        "x": 2326,
+        "y": 1136
+      },
+      "image": "8a4ac3d3e410975731f2bb062b20da2fd6fd0c89.png",
+      "audio": "f85d49feb73bb7a2deeaad7981234908a8767f27.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": 4
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    },
+    {
+      "uuid": "e8df8b9a-aba2-4361-839a-0b102f71b498",
+      "type": "stage",
+      "name": "Plane",
+      "position": {
+        "x": 2576,
+        "y": 1136
+      },
+      "image": "a3bf9586b173433f11400082e87b326d83e2105f.png",
+      "audio": "1118ce144bfb0d49e548d48b85108d155b27c256.mp3",
+      "okTransition": {
+        "actionNode": "17552e91-d58b-4b02-ad22-97124fec985a",
+        "optionIndex": -1
+      },
+      "homeTransition": {
+        "actionNode": "cb10798f-a70b-418b-be94-111111111111",
+        "optionIndex": 0
+      },
+      "controlSettings": {
+        "wheel": true,
+        "ok": true,
+        "home": true,
+        "pause": true,
+        "autoplay": true
+      }
+    }
+  ],
+  "actionNodes": [
+    {
+      "id": "4c9487eb-5e7c-4ffe-8377-d56e2ebe4c79",
+      "name": "Animaux",
+      "position": {
+        "x": 1323,
+        "y": 255
+      },
+      "options": [
+        "52469d35-eadc-421b-b1a6-f609beba1389",
+        "54e58690-99e9-4225-b1e8-fb7e0e211418",
+        "2e5b0818-1b04-4a3c-9a72-dd7731e6af36",
+        "4471e010-8037-4144-922d-dddc9c2d216d",
+        "6c01887f-52a3-4bed-8793-e15b3d119213"
+      ]
+    },
+    {
+      "id": "d3634075-d7d4-4fa8-934e-4d653bf63350",
+      "name": "Nourriture et Boissons",
+      "position": {
+        "x": 1373,
+        "y": 555
+      },
+      "options": [
+        "d896ca39-0508-42e1-b218-b6d63dcd81ee",
+        "ace930a6-b6ab-48d4-a048-2df60e50175f",
+        "1d1342bb-cc43-4d0a-ac1b-c4b49a8b0510",
+        "3f42535d-09c6-42c5-92ff-b3e5c6cc358f",
+        "0adb773f-e333-4128-85bc-ed5eeaa0fb78"
+      ]
+    },
+    {
+      "id": "3c03a88e-4004-4c32-84c3-b641b7da8960",
+      "name": "Couleurs",
+      "position": {
+        "x": 1423,
+        "y": 855
+      },
+      "options": [
+        "e91931a4-85c8-4a2e-a5ea-951a0dcf521e",
+        "8515c827-4576-44d4-a23b-8d2287698cf2",
+        "8c107f6c-6274-4f40-9e0f-9e108e3207dc",
+        "258e4f51-1288-43a1-9e1e-385bd787dd25",
+        "ffb40f8a-96fc-4838-9e85-447050194bbf"
+      ]
+    },
+    {
+      "id": "17552e91-d58b-4b02-ad22-97124fec985a",
+      "name": "Transports",
+      "position": {
+        "x": 1473,
+        "y": 1155
+      },
+      "options": [
+        "20387089-853b-456c-ad87-639c13b92845",
+        "adfdc820-bb24-45b0-8be9-b19735588d60",
+        "4e22b386-b457-410b-a905-5be40870fe6e",
+        "8fa0bd13-2239-4f14-ba15-c9156522c6a3",
+        "e8df8b9a-aba2-4361-839a-0b102f71b498"
+      ]
+    },
+    {
+      "id": "cb10798f-a70b-418b-be94-111111111111",
+      "type": "menu.questionaction",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Menu node.questionaction",
+      "position": {
+        "x": 681.59,
+        "y": 1660.68
+      },
+      "options": [
+        "cb10798f-a70b-418b-be94-222222222222"
+      ]
+    },
+    {
+      "id": "cb10798f-a70b-418b-be94-333333333333",
+      "type": "menu.optionsaction",
+      "groupId": "cb10798f-a70b-418b-be94-cf3c33619a7a",
+      "name": "Menu node.optionsaction",
+      "position": {
+        "x": 681.59,
+        "y": 1860.68
+      },
+      "options": [
+        "cb10798f-a70b-418b-be94-4444444401",
+        "cb10798f-a70b-418b-be94-4444444402",
+        "cb10798f-a70b-418b-be94-4444444403",
+        "cb10798f-a70b-418b-be94-4444444404"
+      ]
+    }
+  ]
+}
