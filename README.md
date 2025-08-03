@@ -2,3 +2,6 @@ Scripts python pour créer des images et audios selon une liste "vocabulaire_ang
 - text2image.py pour créer les vignettes
 - text2voice.py pour créer les audios
 - json_creator.py pour créer un pack .zip à exporter dans C:\Users\%USERNAME%\.studio\library
+
+A améliorer :
+- check longueur du texte pour l'image (crop?)
